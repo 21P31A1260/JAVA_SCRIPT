@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Var,let and constant</title>
+</head>
+<body>
+	<h1>var,let,const</h1>
+	<script type="text/javascript">
+		var a=10;
+		// document.write(a)
+		let b=40; 
+		// let b=20; let cannot be redeclared
+		b=30;// reintialisizing is possible
+		// Block level variable
+		{
+			let c=20;
+			document.write(c+"<br>");
+		}
+		// document.write(c) not possible to call outside of the block 
+		const pi = 3.14;
+		document.write(pi+"<br>");
+		// pi=4.20;// we cannot change the value of pi 
+		const atmcardno= 4465487;
+		document.write(atmcardno+"<br>");
+
+	</script>
+</body>
+</html>
